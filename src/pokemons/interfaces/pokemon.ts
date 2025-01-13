@@ -5,15 +5,15 @@ export interface Pokemon {
   forms: Species[];
   game_indices: GameIndex[];
   height: number;
-  held_items: any[];
+  held_items: Type[];
   id: number;
   is_default: boolean;
   location_area_encounters: string;
   moves: Move[];
   name: string;
   order: number;
-  past_abilities: any[];
-  past_types: any[];
+  past_abilities: Type[];
+  past_types: Type[];
   species: Species;
   sprites: Sprites;
   stats: Stat[];
